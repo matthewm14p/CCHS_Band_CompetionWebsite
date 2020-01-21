@@ -28,3 +28,5 @@ Competition Website... for the band.
 1-16-20 - Today we began working on actual content - trey worked on very little as the design was not needed today - matthew debugged - Nicholas made the bugs as the glorious leader
 
 1-17-20 - today we worked on adding and perfecting a schedule table
+
+1-21-20 - Today we brainstormed and asked for suggestions to make our homescreen - we redesigned the background image
