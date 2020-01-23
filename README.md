@@ -32,3 +32,5 @@ Competition Website... for the band.
 1-21-20 - Today we brainstormed and asked for suggestions to make our homescreen - we redesigned the background image
 
 1-22-20 - today we created a wonderful creation. We finished the ideas for the schedule page while trey thought about the future.
+
+1-23-20 - today we worked on our staff page and davante helped us with styling our text
