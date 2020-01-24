@@ -35,4 +35,4 @@ Competition Website... for the band.
 
 1-23-20 - today we worked on our staff page and davante helped us with styling our text
 
-1-24-20 - Today the group worked to gether to fix the problem of our screen not scrolling, mostly nick i will admit.
+1-24-20 - Today the group worked together to fix the problem of our screen not scrolling, mostly nick i will admit.
