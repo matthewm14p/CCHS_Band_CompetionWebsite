@@ -38,3 +38,5 @@ Competition Website... for the band.
 1-24-20 - Today the group worked together to fix the problem of our screen not scrolling, mostly nick i will admit.
 
 1-27-20 - We reviewed our progress and worked on our staff and acveivements page.
+
+1-28-20 - today we improved the contactand schedual page and organized the cod.
