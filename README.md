@@ -42,3 +42,7 @@ Competition Website... for the band.
 1-28-20 - today we improved the contactand schedual page and organized the cod.
 
 1-29-20 - Today we added stuff and redesigned the schedule page.
+
+1-30-20 - We began reformatting staff page
+
+1-31-20 - Today we continued the process of reformatting our staff page.
