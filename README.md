@@ -48,3 +48,5 @@ Competition Website... for the band.
 1-31-20 - Today we continued the process of reformatting our staff page.
 
 2-3-20 - Today we found a font.
+
+2-4-20 - today we changed fonts and fixed the headings.
