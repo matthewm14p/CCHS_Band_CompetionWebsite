@@ -50,3 +50,5 @@ Competition Website... for the band.
 2-3-20 - Today we found a font.
 
 2-4-20 - today we changed fonts and fixed the headings.
+
+2-5-20 - Today we worked on filling in the content and making it so we can finish the website next week!
