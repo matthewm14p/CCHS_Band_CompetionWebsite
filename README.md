@@ -54,3 +54,5 @@ Competition Website... for the band.
 2-5-20 - Today we worked on filling in the content and making it so we can finish the website next week!
 
 2-6-20 - Today, we rearranged the layout.
+
+2-10-20 - Today we worked on making our contact page more appealing and responsive... Matthew worked on the gallery page ALOT over the weekend.
