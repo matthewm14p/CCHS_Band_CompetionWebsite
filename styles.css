@@ -1,17 +1,36 @@
- body {
-  background-color:rgb(31, 35, 48);
+/* Styles for all pages */
+
+* {
+  text-shadow: 3px 2px 3px black;
+  z-index: 12;
+  font-family: "Nanum Gothic";
+}
+
+
+body {
+  background-image: url(https://i.postimg.cc/c1K3fY3j/2905d7-ac97618734964c978a002ab156ddac71.jpg);
+  top: 0px;
+  width: 100%;
+  object-position: 50% 50%;
+  background-size: cover;
   margin: 0px;
+  position: inherit;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  z-index: 1;
 }
 
 /* Navbar container */
-.navbar {
-  overflow: hidden;
+nav {
+  overflow: auto;
   background-color: rgb(4, 49, 161);
   font-family: Arial;
+  margin: auto;
+  z-index: 1111111111111111px;
 }
 
 /* Links inside the navbar */
-.navbar a {
+nav a {
   float: left;
   font-size: 16px;
   color: white;
@@ -23,7 +42,7 @@
 /* The dropdown container */
 .dropdown {
   float: left;
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* Dropdown button */
@@ -38,8 +57,8 @@
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
-.navbar a:hover,
+/* Add a gray background color to navbar links on hover */
+nav a:hover,
 .dropdown:hover .dropbtn {
   background-color: grey;
 }
@@ -51,7 +70,7 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 1111111;
 }
 
 /* Links inside the dropdown */
@@ -62,6 +81,7 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  text-shadow: none;
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -74,35 +94,315 @@
   display: block;
 }
 
-p {
+#lines {
   font-size: 40px;
   padding: 0px 10px;
   margin: 0px;
 }
 
+
+
 h1 {
   color: white;
   margin: 20px 0px;
   padding: 0px;
-  font-family: tienne, serif;
+  font-family: "Contrail One" ,"Graduate","Marcellus SC" ,"Libre Franklin", "Tienne", sans-serif;
+  font-size: 40px;
+  margin-right: 2.5%;
 }
 
-.foto{
-width:80%;
-border: 3px solid rgb(4, 49, 161);
-border-radius: 15px;
-
+.flex-container{
+  display: flex;
+  flex-direction: column;
 }
 
 .inbord {
-  padding: 2% 1%;
+  padding: auto;
+  padding-bottom: 10px;
   background-color: rgba(63, 71, 90, 0.562);
-  margin: 1% 10%;
-  border: 3px solid rgb(4, 49, 161);
-border-radius: 15px;
+  margin: auto;
+  margin-bottom: 2.5%;
+  border: 3px solid rgba(4, 48, 161, 0.616);
+  border-radius: 15px;
+  content: "";
+  clear: both;
+  display: table;
 }
 
-h2{
+.header {
+  text-align: center;
+  font-size: 150%;
+  text-align: center;
+  color: white;
+  font-family: "Graduate";
+}
+
+.name {
+  text-align: center;
+  font-size: 125%;
+  text-align: center;
+  color: white;
+  font-family: "Changa";
+}
+
+iframe {
+  float: middle;
+  margin: 1% 3%;
+  border: 4px solid rgba(32, 49, 78, 0.829);
+  border-radius: 5px;
+}
+
+.points {
+  font-size: 100%;
+  color: white;
+  text-align: center; 
+  margin: 0px 10px;
+}
+
+
+/* Just Home page styles */
+
+.foto {
+  width: 80%;
+  border: 3px solid rgb(4, 49, 161);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.motto {
+  text-align: center;
+  font-size: 130%;
+  font-family: "Source Serif Pro", serif;
+}
+
+.homeInfo {
+  color: white;
+  text-align: justify;
+  text-indent: 7.5%;
+  padding: 0% 7.5%;
+  font-size: 105%;
+  margin: auto;
+}
+
+/* Video credit */
+.credit {
+  padding: 0px;
+  margin: 1px;
+  color: white;
+  font-size: 12.5px;
+}
+
+
+/* Shedule page styles */
+ul{
+  list-style-type:none;
+
+}
+
+li{
+ text-indent: 41%;
+ color: white;
+font-size: 110%;
+}
+
+
+
+/* Staff and Band Boosters page and Achievements styles */
+
+.profileLeft {
+  width: 15%;
+  margin: 0px 20px;
+  border: 5px solid rgba(128, 128, 128, 0.63);
+}
+
+.profileRight {
+  width: 20%;
+  margin: 0px 20px;
+  border: 5px solid rgba(128, 128, 128, 0.63);
+}
+
+.staffpright {
+  color: white;
+  text-align: right;
+}
+
+.staffpleft {
+  color: white;
+  text-align: left;
+}
+
+
+/* Contact page styles */
+
+.contactp {
+  font-size: 150%;
+  text-align: left;
+  color: white;
+  text-indent: 10%;
+}
+
+.contentp {
+  color: white;
+  font-size: 125%;
+  text-decoration: none;
+  text-align: center;
+  margin: 5% 10%;
+}
+
+.contenta {
+  display: inline-block;
+  color: white;
+  font-size: 125%;
+  text-decoration: none;
+}
+
+.contenta:hover {
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px black;
+}
+
+.remind {
+  text-align: center;
+}
+
+  
+.gallimg{
+  width: 40%;
+}
+
+  .tab-content {
+    overflow: auto;
+    display: block;
+  }
+
+  .tab input:checked ~ .tab-content {
+    display: block;
+  }
+
+#FB{
+   width: 100px;
+   margin: 15px;
+}
+
+#RD{
+  width: 100px;
+  margin: 15px;
+}
+
+.email{
   color: white;
 }
 
+  /* [THE ENTIRE TAB] */
+.tab {
+  position: relative;
+  margin: 2px;
+  max-width: 600px;
+  max-height: 100%;
+}
+
+/* [THE LABEL] */
+.tab input {
+  display: none;
+}
+.tab label {
+  display: block;
+  background: #0045b4dc;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+.tab label::after {
+  content: "\25b6";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  transition: all 0.4s;
+}
+.tab input[type=checkbox]:checked + label::after,
+.tab input[type=radio]:checked + label::after {
+  transform: rotate(90deg);
+}
+
+/* [THE CONTENTS] */
+.tab-content {
+  overflow: auto;
+  background: #09246ea9;
+  /* CSS animation will not work with auto height */
+  /* This is why we use max-height */
+  transition: max-height 0.4s; 
+  max-height: 0;
+}
+.tab-content img {
+  margin: 10px;
+  border: 2px solid rgba(32, 49, 78, 0.829);
+  border-radius: 5px;
+}
+.tab input:checked ~ .tab-content {
+  /* Set the max-height to a large number */
+  /* Or 100% viewport height */
+  max-height: 60vh;
+}
+
+.notes{
+  width: 95%;
+}
+
+.photo{
+  font-style: oblique;
+}
+
+.photo:visited{
+  color:white;
+}
+
+/* Media Queries and responsiveness */
+
+@media screen and (min-width: 1080px) {
+  .foto {
+    width: 740px;
+  }
+
+  .inbord {
+    width: 740px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .notes{
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .movie{
+    width: 250px;
+    height: 175px;
+  }
+
+  .foto{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  #title{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  nav{
+    display: block;
+  }
+  #title{
+    font-size: 22px;
+    margin: 5%;
+  }
+  .header{
+    font-size: 22px;
+  }
+}
