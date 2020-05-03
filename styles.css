@@ -2,22 +2,17 @@
 
 * {
   text-shadow: 3px 2px 3px black;
-  z-index: 12;
+  
   font-family: "Nanum Gothic";
 }
 
 
 body {
   background-image: url(https://i.postimg.cc/c1K3fY3j/2905d7-ac97618734964c978a002ab156ddac71.jpg);
-  top: 0px;
   width: 100%;
-  object-position: 50% 50%;
-  background-size: cover;
   margin: 0px;
-  position: inherit;
-  background-repeat: repeat;
+  background-size: cover;
   background-attachment: fixed;
-  z-index: 1;
 }
 
 /* Navbar container */
@@ -26,18 +21,8 @@ nav {
   background-color: rgb(4, 49, 161);
   font-family: Arial;
   margin: auto;
-  z-index: 1111111111111111px;
 }
 
-/* Links inside the navbar */
-nav a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 /* The dropdown container */
 .dropdown {
@@ -69,8 +54,8 @@ nav a:hover,
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+  z-index: 11111;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1111111;
 }
 
 /* Links inside the dropdown */
@@ -106,7 +91,7 @@ h1 {
   color: white;
   margin: 20px 0px;
   padding: 0px;
-  font-family: "Contrail One" ,"Graduate","Marcellus SC" ,"Libre Franklin", "Tienne", sans-serif;
+  font-family: "Contrail One" ,"Graduate", sans-serif;
   font-size: 40px;
   margin-right: 2.5%;
 }
@@ -124,9 +109,7 @@ h1 {
   margin-bottom: 2.5%;
   border: 3px solid rgba(4, 48, 161, 0.616);
   border-radius: 15px;
-  content: "";
   clear: both;
-  display: table;
 }
 
 .header {
@@ -153,7 +136,7 @@ iframe {
 }
 
 .points {
-  font-size: 100%;
+  font-size: 95%;
   color: white;
   text-align: center; 
   margin: 0px 10px;
@@ -195,36 +178,26 @@ iframe {
 
 /* Shedule page styles */
 ul{
-  list-style-type:none;
+  text-align: center;
+  list-style-type: none;
 
 }
 
 li{
- text-indent: 41%;
  color: white;
 font-size: 110%;
 }
 
 
 
-/* Staff and Band Boosters page and Achievements styles */
+/* Staff & Band Boosters page and Achievements page styles */
 
 .profileLeft {
   width: 15%;
   margin: 0px 20px;
-  border: 5px solid rgba(128, 128, 128, 0.63);
+  border: 3px solid rgba(128, 128, 128, 0.63);
 }
 
-.profileRight {
-  width: 20%;
-  margin: 0px 20px;
-  border: 5px solid rgba(128, 128, 128, 0.63);
-}
-
-.staffpright {
-  color: white;
-  text-align: right;
-}
 
 .staffpleft {
   color: white;
@@ -291,6 +264,7 @@ font-size: 110%;
 
 .email{
   color: white;
+  font-size: 115%;
 }
 
   /* [THE ENTIRE TAB] */
